@@ -31,6 +31,9 @@ class Section_right extends StatelessWidget {
               color : kTextColor,
             ),
           ),
+          SizedBox(
+            height : 10,
+          ),
           Container(
             width: 200,
             height: 30,
@@ -63,6 +66,9 @@ class Section_right extends StatelessWidget {
           width: newWidth,
         ),
       ),
+          SizedBox(
+            height : 15,
+          ),
           Text(
             "Catégories :".toUpperCase(),
             style : TextStyle(
@@ -77,6 +83,9 @@ class Section_right extends StatelessWidget {
           Category(text: "Maladies génétiques", press : (){}),
           Category(text: "Biotechnologies", press : (){}),
           Category(text: "Bio-informatique", press : (){}),
+          SizedBox(
+            height : 15,
+          ),
           Text(
             "Nuage de tags :".toUpperCase(),
             style : TextStyle(

@@ -23,7 +23,7 @@ class CustomAppBar extends StatelessWidget {
       child: Row(
         children: <Widget>[
            Image.asset(
-             "assets/images/logo-evrybiody.png",
+             "assets/images/logo-evrybiody.jpg",
              height: 25,
              alignment: Alignment.topCenter,
            ),

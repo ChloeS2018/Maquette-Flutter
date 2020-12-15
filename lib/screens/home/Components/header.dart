@@ -16,12 +16,11 @@ class Header extends StatelessWidget {
     return Column(
         children: <Widget>[
           Container(
-          margin: EdgeInsets.symmetric(horizontal: 40, vertical:6),
-            decoration: BoxDecoration(color : kSecondaryColor,),
+            decoration: BoxDecoration(color : kHeaderColor),
         child: Row(
           children: <Widget>[
             Image.asset(
-              "assets/images/logo-evrybiody.png",
+              "assets/images/logo-evrybiody.jpg",
               height: 120,
               alignment: Alignment.topCenter,
             ),
@@ -31,7 +30,7 @@ class Header extends StatelessWidget {
                 style : TextStyle(
                   fontSize:35,
                   fontWeight: FontWeight.bold,
-                  color : kTitleColor,
+                  color : kPoliceHeaderColor,
                 ),
             ),
             SizedBox(width:15),
@@ -44,7 +43,7 @@ class Header extends StatelessWidget {
                     "La vulgarisation scientifique dans le domaine de la génétique",
                     style : TextStyle(
                       fontSize:20,
-                      color : kTitleColor,
+                      color : kPoliceHeaderColor,
                     ),
                   )
               ),
@@ -53,19 +52,19 @@ class Header extends StatelessWidget {
             Text(
               "Suivez nous :",
               style : TextStyle(
-                fontSize:18,
-                color : kTitleColor,
+                fontSize:15,
+                color : kPoliceHeaderColor,
               ),
             ),
             SizedBox(width:15),
             Image.asset(
-              "assets/images/logo_fb.png",
-              height: 40,
+              "assets/images/logo-fb-blanc.png",
+              height: 30,
               alignment: Alignment.topCenter,
             ),
             Image.asset(
-              "assets/images/logo_insta.png",
-              height: 45,
+              "assets/images/logo_insta_blanc.png",
+              height: 25,
               alignment: Alignment.topCenter,
             ),
           ],

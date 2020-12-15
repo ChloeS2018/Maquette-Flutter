@@ -20,7 +20,6 @@ class MenuItem extends StatelessWidget {
             child : Text(title.toUpperCase(),
               style : TextStyle(
                 color: kTitleColor,
-                fontWeight: FontWeight.bold,
                 fontFamily: 'Oswald',
                 fontSize: 20,
               ),

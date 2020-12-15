@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'EvryBioDy',
       theme: ThemeData(
+        fontFamily: 'Oswald',
         primaryColor: kPrimaryColor,
         visualDensity: VisualDensity.adaptivePlatformDensity, 
       ),
